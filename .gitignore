@@ -1,2 +1,51 @@
-\env
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folder
+venv/
+env/
+.venv/
+.env/
+
+# Streamlit config file
+/.streamlit/
+
+# IDE files (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Python dependency manager
+Pipfile.lock
+poetry.lock
+*.egg-info/
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Local environment variables file
 .env
+
+# FastAPI specific
+*.sqlite3
+*.db
+
+# Test and coverage reports
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit logs and session files
+*.log
+*.csv
+*.tsv
+*.html
+*.sqlite
+*.db
