@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
 import webbrowser
-import pyperclip
 
 # --- Sidebar content ----
 st.sidebar.title("🔐 About This App")
@@ -54,6 +53,3 @@ if st.button("Generate Password"):
 if "password" in st.session_state:
     st.code(st.session_state.password, language="text")
 
-    if st.button("📋 Copy Password"):
-        pyperclip.copy(st.session_state.password)
-        st.success("✅ Password copied to clipboard!")
