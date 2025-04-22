@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import webbrowser
 
-# --- Sidebar content ----
+# --- Sidebar content ---
 st.sidebar.title("🔐 About This App")
 st.sidebar.markdown("""
 Welcome to the Advanced Password Generator!  
