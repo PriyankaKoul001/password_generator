@@ -49,7 +49,7 @@ if st.button("Generate Password"):
     }
 
     try:
-        response = requests.get("http://localhost:8000/generate-password", params=params)
+        response = requests.get("https://password-generator-n53d.onrender.com/generate-password", params=params)
         if response.status_code == 200:
             st.session_state.password = response.json()["password"]
         else:
