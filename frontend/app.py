@@ -13,11 +13,19 @@ Built using **FastAPI** + **Streamlit**.
 
 # --- Profile Links in Sidebar ---
 st.sidebar.markdown("### Connect with Me:")
-if st.sidebar.button("🌐 LinkedIn"):
-    webbrowser.open_new_tab("https://www.linkedin.com/in/priyanka-koul-a5b1a5361/")
+st.sidebar.markdown("""
+<a href="https://www.linkedin.com/in/priyanka-koul-a5b1a5361/" target="_blank">
+    <button style="background-color:#e63946; color:white; padding:8px 16px; border:none; border-radius:5px; margin-bottom:10px; width:100%;">
+        🌐 LinkedIn
+    </button>
+</a>
+<a href="https://github.com/PriyankaKoul001" target="_blank">
+    <button style="background-color:#e63946; color:white; padding:8px 16px; border:none; border-radius:5px; width:100%;">
+        💻 GitHub
+    </button>
+</a>
+""", unsafe_allow_html=True)
 
-if st.sidebar.button("💻 GitHub"):
-    webbrowser.open_new_tab("https://github.com/PriyankaKoul001")
 
 # --- Main content ---
 st.title("Advanced Password Generator 🔑")
