@@ -25,6 +25,13 @@ st.sidebar.markdown("""
     </button>
 </a>
 """, unsafe_allow_html=True)
+# --- Footer ---
+st.sidebar.markdown("""
+    <hr style="margin-top: 50px;">
+    <div style="text-align: center; color: grey; font-size: 0.9em;">
+        Made with 💖 by <a href="https://www.linkedin.com/in/priyanka-koul-a5b1a5361/" target="_blank" style="text-decoration: none; color: #e63946;"><strong>Priyanka Koul</strong></a>
+    </div>
+""", unsafe_allow_html=True)
 
 
 # --- Main content ---
